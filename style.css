@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: Futura;
+    color: rgb(66, 66, 66);
+}
+
+@font-face {
+    font-family: Futura;
+    src: url("Futura.ttf");
+}
+
+.header {
+    height: 50px;
+}
+
+.header_div {
+    padding: 3px;
+    float: right;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.header > div:first-child {
+    margin-right: 20px;
+}
+
+.div {
+    font-size: 16px;
+}
+
+.circle {
+    background-image: url("vasko.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+}
+
+.section {
+    text-align: center;    
+}
+
+.google > div {
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 130px;
+    font-size: 85px;
+    font-family: Futura;
+    font-weight: bold;
+    letter-spacing: -5px;  
+
+}
+
+.login > div {
+    font-size: 35px;
+    margin-top: 60px;
+}
+
+.g {
+    color: rgb(66,133,244);
+}
+
+.o1 {
+    color: rgb(234,67,53);
+}
+
+.o2 {
+    color: rgb(251,188,5);
+}
+
+.l {
+    color: rgb(52,168,83);
+}
+
+.input {
+    width: 580px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 0px transparent;
+    border: 2px solid rgb(228, 228, 228);
+    text-shadow: 0px 0px 0px transparent;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0 , .1);
+}
+
+.input:focus {
+    outline: none;
+}
+
+
+
+.button {
+    margin-top: 30px;
+    padding: 8px;
+    font-size: 12px;
+    font-weight: bolder;
+    color: rgb(105, 105, 105);
+    background-color: rgb(244,244,244);
+    border-radius: 4px;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;   
+}
+
+.button:hover {
+    background-color: rgb(221, 221, 221);    
+}
+
+.text {
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.footer {
+    height: 50px;
+    width: 100%;
+    background-color: whitesmoke;
+    border-top: 1px solid rgb(219, 219, 219);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.footer div {
+    display: inline-block;
+}
+
+.footer p {
+    display: inline-block;
+    padding: 5px;
+    padding-top: 10px;         
+}
+
+.footer p:hover { 
+    color: rgb(34, 34, 34);
+    cursor: pointer;
+}
+
+.div2 {
+    position: absolute;
+    right: 0;    
+}
+
+.one {
+    margin-top: 60px;
+    font-size: 40px;    
+}
+
+.two {
+
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section_login {
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    box-shadow: 0px 2px 2px rgba(1, 1, 1, 0.3)    
+
+}
+
+.sec_login {
+    display: block;
+    margin: 0 auto;    
+}
+
+.anon_img {
+    width: 100px;
+    padding: 40px;   
+}
+
+.input1 {
+    width: 360px;
+    height: 40px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    padding-left: 5px;
+}
+
+.sing {
+    width: 360px;
+    height: 40px;
+    background-color: rgb(66,133,244);
+    color: whitesmoke;
+    border-radius: 7px;
+}
+
+.section_login p {
+    color: rgb(66,133,244);
+    text-align: right;
+    margin-right: 20px;    
+}
+
+.three {
+    margin-top: 20px;
+    color: rgb(66,133,244);
+}
+
+.four {
+    margin-top: 40px;
+}
